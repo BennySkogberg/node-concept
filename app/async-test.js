@@ -8,7 +8,7 @@ const fs = require('fs')
 
 console.log('start reading the file...')
 
-fs.readFile('app/file.md', 'utf-8', function (err, content) {
+fs.readFile('file/file.md', 'utf-8', function (err, content) {
   if (err) {
     console.log('error happened during reading the file')
     return console.log(err)
