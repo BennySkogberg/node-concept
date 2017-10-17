@@ -17,3 +17,4 @@ fs.readFile('file/file.md', 'utf-8', function (err, content) {
 })
 
 console.log('end of the file')
+console.log('end of the file commit')
