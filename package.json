@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "mocha test"
+    "test": "mocha test",
+    "async": "node app/async-test.js"
   },
   "author": "Benny Skogberg",
   "license": "ISC",
