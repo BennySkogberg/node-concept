@@ -6,11 +6,14 @@
   "scripts": {
     "start": "node index.js",
     "test": "mocha test",
-    "async": "node app/async-test.js"
+    "async": "node app/async-test.js",
+    "web": "node web/index.js",
+    "web2": "node web/index2.js"
   },
   "author": "Benny Skogberg",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.2",
     "lodash": "^4.17.4"
   },
   "devDependencies": {
