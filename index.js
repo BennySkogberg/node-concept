@@ -6,4 +6,4 @@
  * Date  : 2017-10-17
  */
 
-require('./app/index')
+require('./web/index6')
